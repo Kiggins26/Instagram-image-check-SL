@@ -20,7 +20,7 @@ if image_files is not None:
     
     
     st.write("""
-            ### The images below are order from what will do the best to what will do the worst in terms of likes
+            ### The images below are ordered from best to worst in terms of like prediction
             """)
 
     for image in reversed(image_score_pairs):
