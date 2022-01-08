@@ -23,6 +23,6 @@ if image_files is not None:
             ### The images below are ordered from best to worst in terms of like prediction
             """)
 
-    for image in image_score_pairs:
+    for image in reversed(image_score_pairs):
 
         st.image(image, caption = image_score_pairs[image]) 
