@@ -1,0 +1,11 @@
+import streamlit as st
+from test import judge_image
+
+st.write("""
+        # Instagram image judge
+        using ml to pick the image that will do the best on instagram
+""")
+
+st.file_uploader("Pick your images", type = ['png','jpeg','jpg'])
+
+
