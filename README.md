@@ -9,10 +9,6 @@ This work can quantitatively predict how much traction an image will get on Inst
 
 It can help users to find the image that would be the most popular to the public.
 
-Run ```python test.py --image_path <image_path>``` to evaluate the intrinsic image popularity of your photos on Instagram. 
-
-<!-- This is the [Online Demo](https://iipa.ngrok2.xiaomiqiu.cn) (unstable). -->
-
 This project use the MIT license.
 
 ### Dataset
